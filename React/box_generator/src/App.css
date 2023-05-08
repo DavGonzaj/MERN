@@ -1,0 +1,35 @@
+* {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.App {
+  text-align: center;
+}
+.box {
+  padding: 10px;
+  border-radius: 20px;
+}
+textarea {
+  text-align: center;
+}
+
+input {
+  border-radius: 20px;
+  border: 2px solid black;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.boxes {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(89, 91, 78);
+  border: 2px solid blanchedalmond;
+  box-shadow: 2px black;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+  }
+}
