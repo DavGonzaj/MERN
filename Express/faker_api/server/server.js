@@ -9,14 +9,14 @@ class User {
   constructor() {
     this.firstName = faker.name.firstName();
     this.lastName = faker.name.lastName();
-    this.phoneNumber = faker.phone.phoneNumber();
+    this.phoneNumber = faker.phone.number();
     this.email = faker.internet.email();
     this.password = faker.internet.password();
   }
 }
 class Company {
   constructor() {
-    this.name = faker.company.companyName();
+    this.name = faker.company.name();
     this.address = {
       street: faker.address.streetName(),
       city: faker.address.city(),
